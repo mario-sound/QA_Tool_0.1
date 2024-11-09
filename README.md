@@ -41,35 +41,26 @@ Sigue estos pasos para instalar y usar la herramienta en tu entorno local:
 
 1. Ejecuta el script principal:
    ```bash
-   python main.py --input /ruta/del/archivo/audio
+   python main.py
    ```
-2. Opciones disponibles:
-   - `--input`: Ruta al archivo de audio o carpeta con archivos.
-   - `--output`: (Opcional) Directorio donde se guardará el reporte.
-   - `--verbose`: Muestra detalles adicionales del análisis.
-
-Ejemplo:
-
-```bash
-python main.py --input audio_test.wav --output resultados --verbose
-```
-
-### Interfaz gráfica (si está disponible):
-
-(Esta sección se puede actualizar si tienes una GUI).
 
 ---
 
 ## 📂 Estructura del proyecto
 
 ```
+
 QA_Tool_0.1/
-├── main.py           # Script principal
-├── analysis/         # Módulos de análisis de audio
-├── tests/            # Tests unitarios
-├── docs/             # Documentación adicional
-├── requirements.txt  # Dependencias del proyecto
-└── README.md         # Documentación del repositorio
+├── Tool/main.py # Script principal con la interfaz gráfica y algunas funcionalidades
+├── Tool/audio_player.py # Módulo de reproducción del audio
+├── Tool/excel_manager.py # Módulo de manejo de información respecto a archivos excel
+├── Tool/qa_tool.py # Módulo con la lógica principal del programa
+├── English/ # Carpeta con audios en inglés como ejemplo
+├── Spanish/ # Carpeta con audios en español como ejemplo
+├── counter_tool.xlsx # Archivo de excel para probar la herramienta
+├── config.json # Archivo que guarda la configuración de las últimas rutas escogidas
+└── README.md # Documentación del repositorio
+
 ```
 
 ---
@@ -86,10 +77,14 @@ QA_Tool_0.1/
 
 ## 📄 Licencia
 
-Este proyecto está bajo la Licencia [MIT](LICENSE).
+No se permite el uso comercial sin permiso para esta licencia. Su uso está limitado a un uso educativo o divulgativo. Siempre que se haga público algún contenido relacionado, deberá mencionarse al autor de la herramienta.
 
 ---
 
 ## 📧 Contacto
 
-Para dudas o sugerencias, puedes contactar a Mario Sound en [mario.sound@example.com](mailto:mario.sound@example.com) o abrir un [issue](https://github.com/mario-sound/QA_Tool_0.1/issues).
+Para dudas o sugerencias, puedes contactar a Mario Sound en [mario16msound@gmail.com](mailto:mario16msound@gmail.com) o abrir un [issue](https://github.com/mario-sound/QA_Tool_0.1/issues).
+
+```
+
+```
