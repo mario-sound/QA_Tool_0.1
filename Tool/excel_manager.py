@@ -12,7 +12,7 @@ def guardar_datos_excel(datos, ruta_excel):
 
 def editar_asrec(tree, datos, item, root):
     """Permite editar el contenido de la columna AsRec al hacer doble clic."""
-    # Crear una ventana emergente para editar el contenido de AsRec
+    # Editar el contenido de AsRec
     ventana_editar = tk.Toplevel(root)
     ventana_editar.title("Editar AsRec")
 
